@@ -31,5 +31,9 @@ Design: http://www.innovationplans.com/idesign/daniels/particles.html
 
 Rimantas: [Github](https://github.com/belauzas)
 Saulius: [Github](https://github.com/saulius334)
+<<<<<<< HEAD
 
 Zbignevas: [Github](https://github.com/ZbignevZ)
+=======
+Domas: [Github] (https://github.com/Domasbab)
+>>>>>>> e0355d6fbc15e7b70f3adeda9098727467eab241
