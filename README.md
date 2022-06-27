@@ -30,3 +30,4 @@ Design: http://www.innovationplans.com/idesign/daniels/particles.html
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Saulius: [Github](https://github.com/saulius334)
