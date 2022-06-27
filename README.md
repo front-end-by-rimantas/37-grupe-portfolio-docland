@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/37-grupe-portfolio/
 
-Design: http://www.innovationplans.com/idesign/daniels/particles.html
+Design: https://themelooks.org/demo/docland/html/home-course.html#
 
 ## Project features
 
