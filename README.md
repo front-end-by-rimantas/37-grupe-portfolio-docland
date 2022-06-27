@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Daniels portfolio
+# DocLand portfolio
 
 _37 group website project_
 
@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/37-grupe-portfolio/
 
-Design: http://www.innovationplans.com/idesign/daniels/particles.html
+Design: https://themelooks.org/demo/docland/html/home-course.html#
 
 ## Project features
 
@@ -30,3 +30,9 @@ Design: http://www.innovationplans.com/idesign/daniels/particles.html
 ## Authors
 
 Rimantas: [Github](https://github.com/belauzas)
+Saulius: [Github](https://github.com/saulius334)
+Domas: [Github](https://github.com/Domasbab)
+Aleksandr: [Github](https://github.com/zasweted)
+Rafal: [Github](https://github.com/Kalis1990)
+Vilma: [Github](https://github.com/VilmaPetruskeviciene)
+Zbignev: [Github](https://github.com/ZbignevZ)
