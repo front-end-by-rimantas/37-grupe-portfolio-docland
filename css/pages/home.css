@@ -28,6 +28,27 @@
 /* karusele end */
 
 /* course syllabus download start */
+.CourseSyllabusDownload0 {
+    display: flex;
+   float: left;
+   font-size: 35px;
+}
+.CourseSyllabusDownload1 {
+    float: right;
+    text-decoration: none;
+    padding: 10px 25px;
+    border:1px solid #5dd9c1;
+    border-radius: 5px;
+    color: black;
+}
+
+.CourseSyllabusDownload1:hover {
+    background-color: #5dd9c1;
+    color: white;
+    transition: 0.3s linear;
+}
+
+
 /* course syllabus download end */
 
 /* course syllabus content start */
