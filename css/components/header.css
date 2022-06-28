@@ -14,7 +14,7 @@ body > .container:first-child {
 .header-right {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 35px;
 
 }
 .main-nav {
@@ -25,11 +25,12 @@ body > .container:first-child {
 }
 .header-right > .links {
     display: flex;
-    gap: 50px;
+    gap: 35px;
 }
 
 .links > a {
     text-decoration: none;
+    font-family: ubuntu;
     color: #707070;
     font-size: 20px;
     font-weight: 400;
@@ -49,8 +50,9 @@ body > .container:first-child {
 .login > a {
     color: #fbc006;
     position: relative;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: Hind;
+    font-size: 18px;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -78,12 +80,13 @@ body > .container:first-child {
 
 .btn-join-now {
     background-color: #5dd9c1;
-    border: none;
+    border: 1px solid transparent;
     color: #fff;
+    font-family: Hind;
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
-    padding: 15px 33px;
+    padding: 10px 33px;
     border-radius: 6px;
     transition: 0.3s linear;
 }
