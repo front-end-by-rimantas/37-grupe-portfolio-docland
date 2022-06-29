@@ -40,6 +40,63 @@
 /* pricing end */
 
 /* pricing start */
+.pricebox {
+padding: 50px;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 2px 16px #ccc;
+}
+.priceboxtwo {
+    background-color: #5DD9C1;
+}
+.money {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+    position: relative;
+}
+.money > p {
+    color: #5DD9C1;
+    font-size: 56px;
+    padding-right: 10px;
+}
+.pricebox > p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.money > span {
+     font-size: 20px;
+     font-weight: 200;
+}
+.pricelist > ul {
+    list-style-type:none;
+    
+}
+.pricelist > ul > li {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.pricelist > ul > li > i {
+    margin-right: 10px;
+    color: #5DD9C1;
+}
+.pricebefore {
+    text-decoration: line-through;
+    font-size:24px !important;
+    position: absolute;
+    left:40%;
+    top: 14%;
+}
+.priceboxtwo > .money > p,
+.priceboxtwo > .money > span,
+.priceboxtwo > p,
+.priceboxtwo > .pricelist > ul > li,
+.priceboxtwo > .pricelist > ul > li > i {
+ color: white !important;
+}
 /* pricing end */
 
 /* subscribe form start */
