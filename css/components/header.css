@@ -100,6 +100,7 @@ body > .container:first-child {
 }
 
 @media (min-width: 992px) {
+    .header-left,
     .header-right,
     .header-right > .links {
         gap: 20px;
@@ -107,18 +108,22 @@ body > .container:first-child {
 }
 
 @media (max-width: 991px) {
+    .header-left,
+    .header-left,
     .header-right {
         display: none;
     }
 }
 
 @media (min-width: 1200px) {
+    .header-left,
     .header-right,
     .header-right > .links {
         gap: 25px;
     }
 }
 @media (min-width: 1400px) {
+    .header-left,
     .header-right,
     .header-right > .links {
         gap: 30px;

@@ -1,0 +1,54 @@
+.burg-menu {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burg-btn {
+    display:block;
+    width: 25px;
+    height: 2px;
+    position: relative;
+    background-color: #707070;
+}
+
+.burg-btn:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    top: 7px;
+    display: block;
+    position: absolute;
+    background-color: #707070;
+}
+
+.burg-btn:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    top: -7px;
+    display: block;
+    position: absolute;
+    background-color: #707070;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .burg-menu {
+        color: #333;
+    }
+}
+
+@media (min-width: 991px) {
+    .burg-menu {
+        display: none;
+    }
+}
