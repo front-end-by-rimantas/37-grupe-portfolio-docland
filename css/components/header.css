@@ -93,6 +93,7 @@ body > .container:first-child {
     padding: 10px 33px;
     border-radius: 6px;
     transition: 0.3s linear;
+    cursor: pointer;
 }
 
 .btn-join-now:hover {
