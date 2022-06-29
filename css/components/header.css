@@ -23,13 +23,11 @@ body > .container:first-child {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap: 40px;
 
 }
 .header-right > .links {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
 }
 
 .links > a {
@@ -120,13 +118,6 @@ body > .container:first-child {
     .header-left,
     .header-right,
     .header-right > .links {
-        gap: 25px;
-    }
-}
-@media (min-width: 1400px) {
-    .header-left,
-    .header-right,
-    .header-right > .links {
-        gap: 30px;
+        gap: 40px;
     }
 }
