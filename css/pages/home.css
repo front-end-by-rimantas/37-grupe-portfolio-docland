@@ -56,17 +56,47 @@
 
 /* Student review start*/
 .Sara{  
-    display: inline-block;
     background-color: white;
     border: solid 2px black;
     width: 100%;
     border-radius: 15px;
+    padding: 40px;
+}
+.Sara p{  
+    color: #777;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
 }
 .Dorji{  
     background-color: white;
     border: solid 2px black;
     width: 100%;
     border-radius: 15px;
+    padding: 40px;
+}
+.Dorji p{  
+    color: #777;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+
+    
+}
+.picandname{
+    display: flex;
+    flex-direction:row
+}
+.namestyle{
+    color: blue;
+    border: solid 2px black;
+    width: 30%;
+    text-align: center;
+
+}
+.peoplepic{
+    border: solid 2px black;
+    width: 20%;
 }
 /* Student review end*/
 
