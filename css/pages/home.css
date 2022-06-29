@@ -19,6 +19,21 @@
 /* hero end */
 
 /* stats start */
+.stats1 {
+   display: flex;
+   justify-content: space-around;
+   gap: 100px;
+   font-size: 26px;
+   
+}
+
+.stats2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    color: #5c6b56;
+}
+
 /* stats end */
 
 /* clock start */
