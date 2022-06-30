@@ -55,12 +55,18 @@ box-shadow: 0 2px 16px #ccc;
     display: flex;
     align-items: baseline;
     margin-bottom: 20px;
-    position: relative;
 }
 .money > p {
     color: #5DD9C1;
     font-size: 56px;
     padding-right: 10px;
+    position: relative;
+}
+.money > .pricetag2::after {
+    content: '$999';
+    text-decoration: line-through;
+    font-size:24px !important;
+    position: absolute;
 }
 .pricebox > p {
     font-weight: 100;
@@ -85,13 +91,6 @@ box-shadow: 0 2px 16px #ccc;
 .pricelist > ul > li > i {
     margin-right: 10px;
     color: #5DD9C1;
-}
-.pricebefore {
-    text-decoration: line-through;
-    font-size:24px !important;
-    position: absolute;
-    left:40%;
-    top: 14%;
 }
 .priceboxtwo > .money > p,
 .priceboxtwo > .money > span,
