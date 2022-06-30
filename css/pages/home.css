@@ -9,6 +9,7 @@
 @import '../components/button.css';
 @import '../components/footer.css';
 @import '../components/header.css';
+@import '../components/section-title.css';
 
 /* CUSTOM STYLE */
 
@@ -42,6 +43,7 @@
 /* pricing start */
 .pricebox {
 padding: 50px;
+padding-bottom: 70px;
 background-color: white;
 border-radius: 15px;
 box-shadow: 0 2px 16px #ccc;
@@ -64,7 +66,6 @@ box-shadow: 0 2px 16px #ccc;
     font-weight: 100;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 14px;
 }
 .money > span {
      font-size: 20px;
@@ -72,7 +73,9 @@ box-shadow: 0 2px 16px #ccc;
 }
 .pricelist > ul {
     list-style-type:none;
-    
+}
+.pricelist {
+    margin: 40px 0;
 }
 .pricelist > ul > li {
     font-size: 20px;
@@ -96,6 +99,25 @@ box-shadow: 0 2px 16px #ccc;
 .priceboxtwo > .pricelist > ul > li,
 .priceboxtwo > .pricelist > ul > li > i {
  color: white !important;
+}
+.btnprice1 {
+    background-color: #FBC006;
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btnprice2 {
+    background-color: #fff;
+    border: none;
+    padding: 12px 28px;
+    color: #5DD9C1;
+    font-size: 18px;
+}
+.btnprice2:hover {
+    background-color: #FBC006;
+    color: #fff;
 }
 /* pricing end */
 
