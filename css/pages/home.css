@@ -17,7 +17,12 @@
 
 /* hero start */
 
-
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .hero-title {
     font-size: 60px;
     font-weight: 600;
@@ -49,13 +54,10 @@
     font-weight: 600;
 }
 
-.hero-img {
-    width: 100%;
-    height: auto;
-}
+
 
 .hero-star-rating {
-    font-size: 24px;
+    font-size: 22px;
     color: #fcbf21;
     margin-bottom: 20px;
 }
@@ -67,10 +69,22 @@
 
 .hero-btn {
     background-color: #fbc006;
+    border: none;
 }
 
 .hero-btn:hover {
     background-color: #5dd9c1;
+    border: none;
+}
+
+.play-btn {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    border-radius: 50%;
+    padding: 20px 28px;
 }
 
 .hero-link {
@@ -98,6 +112,30 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
+}
+
+.img-box {
+    position: relative;
+    z-index: 1;
+}
+
+.img-box > .hero-img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+.img-box > .hero-img-bot-right{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    z-index: -1;
+}
+
+.img-box > .hero-img-top-left {
+    position: absolute;
+    left: -75px;
+    top: -75px;
+    z-index: -1;
 }
 
 
