@@ -9,7 +9,9 @@
 @import '../components/button.css';
 @import '../components/footer.css';
 @import '../components/header.css';
+@import '../components/section-title.css';
 @import '../components/slider1.css';
+
 
 /* CUSTOM STYLE */
 
@@ -41,6 +43,83 @@
 /* pricing end */
 
 /* pricing start */
+.pricebox {
+padding: 50px;
+padding-bottom: 70px;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 2px 16px #ccc;
+}
+.priceboxtwo {
+    background-color: #5DD9C1;
+}
+.money {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.money > p {
+    color: #5DD9C1;
+    font-size: 56px;
+    padding-right: 10px;
+    position: relative;
+}
+.money > .pricetag2::after {
+    content: '$999';
+    text-decoration: line-through;
+    font-size:24px !important;
+    position: absolute;
+}
+.pricebox > p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 26px;
+}
+.money > span {
+     font-size: 20px;
+     font-weight: 200;
+}
+.pricelist > ul {
+    list-style-type:none;
+}
+.pricelist {
+    margin: 40px 0;
+}
+.pricelist > ul > li {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.pricelist > ul > li > i {
+    margin-right: 10px;
+    color: #5DD9C1;
+}
+.priceboxtwo > .money > p,
+.priceboxtwo > .money > span,
+.priceboxtwo > p,
+.priceboxtwo > .pricelist > ul > li,
+.priceboxtwo > .pricelist > ul > li > i {
+ color: white !important;
+}
+.btnprice1 {
+    background-color: #FBC006;
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btnprice2 {
+    background-color: #fff;
+    border: none;
+    padding: 12px 28px;
+    color: #5DD9C1;
+    font-size: 18px;
+}
+.btnprice2:hover {
+    background-color: #FBC006;
+    color: #fff;
+}
 /* pricing end */
 
 /* subscribe form start */
