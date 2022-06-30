@@ -1,5 +1,6 @@
 /* BTN base start */
 .btn {
+    text-decoration: none;
     background-color: #5dd9c1;
     border: 1px solid transparent;
     color: #fff;
