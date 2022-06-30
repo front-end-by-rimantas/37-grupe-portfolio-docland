@@ -23,21 +23,29 @@
    font-size: 30px;
    justify-content: space-between;
    
+   
 }
 
 .stats2 {
     color: #5c6b56;
     font-size: 20px;
+    margin-top: 25px;
     
 }
 
 .statsstyle {
     display: flex;
     justify-content: space-between;
-    gap: 140px;
-    justify-content: center;
-
+    text-align: center;
+    gap: 100px;
+    
 }
+
+
+
+
+
+
 
 /* stats end */
 
