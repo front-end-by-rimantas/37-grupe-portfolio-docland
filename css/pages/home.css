@@ -25,6 +25,7 @@
     color: #292929;
     text-transform: capitalize;
     font-family: Hind;
+    margin-bottom: 20px;
 }
 
 .hero-description {
@@ -33,6 +34,7 @@
     line-height: 1.78;
     color: #5c6b56;
     font-family: Ubuntu;
+    margin: 20px 0  ;
 }
 
 .hero-author {
@@ -55,6 +57,7 @@
 .hero-star-rating {
     font-size: 24px;
     color: #fcbf21;
+    margin-bottom: 20px;
 }
 
 .star-rating-span {
