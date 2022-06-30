@@ -17,8 +17,39 @@
 
 /* hero start */
 
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.17;
+    color: #292929;
+    text-transform: capitalize;
+    font-family: Hind;
+}
+
+.hero-description {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.78;
+    color: #5c6b56;
+    font-family: Ubuntu;
+}
+
+.hero-author {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.78;
+    color: #707070;
+}
+
+.hero-author-name {
+    color: #5dd9c1;
+    font-weight: 600;
+}
+
 .hero-img {
     width: 100%;
+    height: auto;
 }
 
 .hero-star-rating {
