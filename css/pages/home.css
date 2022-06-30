@@ -17,8 +17,19 @@
 
 /* hero start */
 
+.hero-img {
+    width: 100%;
+}
 
+.hero-star-rating {
+    font-size: 24px;
+    color: #fcbf21;
+}
 
+.star-rating-span {
+    font-size: 22px;
+    color: #707070;
+}
 
 
 
