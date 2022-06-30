@@ -30,6 +30,8 @@
     color: #5c6b56;
     font-size: 20px;
     margin-top: 25px;
+    width: --var(col-3);
+    line-height: 1.78;
     
 }
 
@@ -37,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 100px;
+    
     
 }
 
