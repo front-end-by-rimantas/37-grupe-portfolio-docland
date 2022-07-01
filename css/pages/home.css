@@ -135,6 +135,33 @@ font-weight: normal;
 /* course syllabus download end */
 
 /* course syllabus content start */
+.WeekBox{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #777;
+}
+.WeekNumber{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.WeekPlan{
+    border: 2px solid black;
+    font-size: 30px;
+}
+.AboutPlan{
+    border: 2px solid black;
+    color: #6c757d;
+    font-size: 20px;
+}
+.lecture p{
+   font-size: small;
+}
 /* course syllabus content end */
 
 /* course benefit start */
