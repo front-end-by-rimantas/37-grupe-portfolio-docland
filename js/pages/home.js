@@ -11,6 +11,7 @@
 /* clock end */
 
 /* karusele start */
+
 /* karusele end */
 
 /* course syllabus download start */
@@ -32,8 +33,10 @@
 /* subscribe form end */
 
 /* course instructor start */
-import { instructorData } from "../data/course-instructor-data";
-import { instructor } from "../components/instructor";
+import { instructorData } from "../../js/data/course-instructor-data.js";
+import { instructor } from "../../js/components/instructor.js";
+instructor(instructorData)
+
 /* course instructor end */
 
 /* footer start */

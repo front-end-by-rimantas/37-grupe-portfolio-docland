@@ -271,9 +271,37 @@ box-shadow: 0 2px 16px #ccc;
   width: 48%;
   background-color: #fff;
   box-shadow: 0 2px 4px #ccc;
+  border-radius: 20px;
 }
 .zainstruktor {
   display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.zainstruktor > img {
+    margin-right: 20px;
+}
+.about-instructor > h6 {
+    font-size: 24px;
+}
+.about-instructor > p {
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.about-instructor > ul > li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.about-instructor > ul > li > .fa:not(:first-of-type) {
+    color:#FBC006
+}
+.instruktor-box > p {
+    font-size: 20px;
+    line-height: 1.78;
+    color: #707070;
+    font-weight: 300;
 }
 /* course instructor end */
 
