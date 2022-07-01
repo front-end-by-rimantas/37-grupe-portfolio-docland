@@ -262,6 +262,19 @@ box-shadow: 0 2px 16px #ccc;
 /* subscribe form end */
 
 /* course instructor start */
+.instructor-container {
+  display: flex;
+  justify-content: space-between;
+}
+.instruktor-box {
+  padding: 60px 50px;
+  width: 48%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px #ccc;
+}
+.zainstruktor {
+  display: flex;
+}
 /* course instructor end */
 
 /* footer start */
