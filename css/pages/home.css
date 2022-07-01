@@ -224,6 +224,41 @@ box-shadow: 0 2px 16px #ccc;
 /* pricing end */
 
 /* subscribe form start */
+.Sendemail{  
+    background-color:#5DD9C1;
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.subscribe{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 150px 15px;
+    text-align: center;
+    width: 85%;
+
+}
+
+.subscribe > input{
+    width:70%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.subscribe ::placeholder{
+    color: #fff;
+    margin-top: 30px;
+}
 /* subscribe form end */
 
 /* course instructor start */
@@ -235,5 +270,83 @@ box-shadow: 0 2px 16px #ccc;
 /* back to top start */
 /* back to top end */
 
+/* Student review start*/
+.Sara{  
+    background-color: white;
+    box-shadow: 0px 5px 10px #777;
+    width: 100%;
+    border-radius: 15px;
+    padding: 40px;
+}
+.Sara p{  
+    color: #777;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: system-ui;
+}
+.Dorji{  
+    background-color: white;
+    box-shadow: 0px 5px 10px #777;
+    width: 100%;
+    border-radius: 15px;
+    padding: 40px;
+}
 
+.Dorji p{  
+    color: #777;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    font-family: system-ui;    
+}
+.nameAndStars{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.picandname{
+    display: flex;
+    flex-direction:row;
+}
+.namestyle{
+    color: #5f52dc;
+    text-align: center;
+}
+.stars{
+    color: #fcbf21;
+}
+
+.peoplepic{
+    width: 20%;
+}
+.ratings{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.ratingsButton{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ratings p{
+    color: #5c6b56;
+    font-size: 25px;
+}
+.ratings-student{
+    font-size: 70px;
+    color: #5dd9c1;
+}
+.ratings-averange{
+    font-size: 70px;
+    color: #fbc006;
+}
+
+
+
+/* Student review end*/
 
