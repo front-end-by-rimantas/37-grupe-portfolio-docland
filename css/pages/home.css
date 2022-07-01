@@ -78,13 +78,18 @@
 }
 
 .play-btn {
+    background-color: #fbc006;
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 150%);
+    transform: translate(-50%, 270%);
     border-radius: 50%;
     padding: 20px 28px;
+}
+
+.play-btn:hover {
+    background-color: #5dd9c1;
 }
 
 .hero-link {
