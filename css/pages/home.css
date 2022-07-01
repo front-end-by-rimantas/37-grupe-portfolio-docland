@@ -78,18 +78,27 @@
 }
 
 .play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fbc006;
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 270%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
-    padding: 20px 28px;
+    height: 68px;
+    width: 68px;
 }
 
 .play-btn:hover {
     background-color: #5dd9c1;
+}
+
+.play {
+    color: #fff;
+    font-size: 20px;
 }
 
 .hero-link {
@@ -127,7 +136,6 @@
 .img-box > .hero-img {
     max-width: 100%;
     height: auto;
-    float: right;
 }
 .img-box > .hero-img-bot-right{
     position: absolute;
