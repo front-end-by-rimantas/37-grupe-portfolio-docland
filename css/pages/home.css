@@ -19,6 +19,7 @@
 
 .hero-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +99,7 @@
 
 .play {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .hero-link {
