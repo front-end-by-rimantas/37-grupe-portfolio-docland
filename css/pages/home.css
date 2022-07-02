@@ -275,6 +275,7 @@ box-shadow: 0 2px 16px #ccc;
 }
 .zainstruktor {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -292,16 +293,24 @@ box-shadow: 0 2px 16px #ccc;
 .about-instructor > ul > li {
     display: flex;
     gap: 15px;
-    margin-bottom: 10px;
 }
-.about-instructor > ul > li > .fa:not(:first-of-type) {
-    color:#FBC006
+.about-instructor > ul > li > i {
+    width: 20px;
+    text-align: center;
+}
+.about-instructor > ul > li > p {
+    text-align: center;
 }
 .instruktor-box > p {
     font-size: 20px;
     line-height: 1.78;
     color: #707070;
     font-weight: 300;
+}
+@media (max-width:1400px) {
+    .zainstruktor > img {
+        margin-bottom: 30px;
+    }
 }
 /* course instructor end */
 

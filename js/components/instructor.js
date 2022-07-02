@@ -7,8 +7,7 @@ const DOM = document.querySelector('#instructor-box');
 
 let HTML = ``;
 for (const item of instructorData) {
-    HTML += `<div class="col-12 instructor-container">
-    <div class="instruktor-box">
+    HTML += `<div class="instruktor-box">
      <div class="zainstruktor">
      <img src="${item.picture}" alt="atlepausis">
      <div class="about-instructor">
