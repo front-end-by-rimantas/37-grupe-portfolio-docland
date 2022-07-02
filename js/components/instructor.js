@@ -1,6 +1,6 @@
 function instructor (instructorData) {
 
-console.log(`sa`);
+console.log(`Bal'a dash, malanore`);
 
 const DOM = document.querySelector('#instructor-box');
 
