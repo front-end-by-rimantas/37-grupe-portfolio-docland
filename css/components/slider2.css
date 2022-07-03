@@ -28,6 +28,7 @@
 
 
 .slBox{
+    float: left;
     width: 350px;
     height: 170px;
     margin-top: 150px;
