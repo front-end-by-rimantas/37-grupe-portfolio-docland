@@ -37,3 +37,22 @@ width:60px;
 height: 40px;
 
 }
+
+.iconBox{
+    width:300px;
+    height: 170px;
+    color: royalblue;
+    background-color: #e9e6ff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.slBox{
+    width: 350px;
+    height: 170px;
+    margin-top: 150px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #5dd9c1;
+}
