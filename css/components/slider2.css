@@ -70,3 +70,17 @@
     padding-left: 10px;
     text-align:left;
 }
+
+.orange{
+    background-color: #fff6db;
+    color: #fbc10b;
+}
+.green{
+    background-color:#e6fffa;
+    color: #73dfca;
+}
+
+.blue{
+    background-color: #d7eff9;
+
+}
