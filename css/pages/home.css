@@ -120,6 +120,22 @@ box-shadow: 0 2px 16px #ccc;
     background-color: #FBC006;
     color: #fff;
 }
+@media (max-width: 1200px) {
+    .pricebox-container {
+    width: var(--col6);
+    margin-left: 0;
+}
+}
+@media (max-width: 480px) {
+    .pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pricebox-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 /* pricing end */
 
 /* subscribe form start */
