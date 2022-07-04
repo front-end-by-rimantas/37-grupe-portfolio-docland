@@ -62,8 +62,9 @@
     float: right;
     font-size: 25px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
+    padding-left: 10px;
     
     
     
