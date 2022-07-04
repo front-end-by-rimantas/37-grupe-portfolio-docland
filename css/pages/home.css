@@ -272,6 +272,8 @@ box-shadow: 0 2px 16px #ccc;
   background-color: #fff;
   box-shadow: 0 2px 4px #ccc;
   border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .zainstruktor {
   display: flex;
@@ -310,6 +312,27 @@ box-shadow: 0 2px 16px #ccc;
 @media (max-width:1400px) {
     .zainstruktor > img {
         margin-bottom: 30px;
+    }
+}
+@media (max-width:785px) {
+    .instructor-container {
+        flex-wrap: wrap;
+    }
+    .instruktor-box {
+        width: 90%;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .instruktor-box {
+        padding: 30px 25px;
+    }
+    .zainstruktor {
+        justify-content: center;
+    }
+    .about-instructor {
+        align-self: flex-start;
     }
 }
 /* course instructor end */
