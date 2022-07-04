@@ -96,6 +96,22 @@
     .invisible4{
         visibility: hidden;
     }
+    .slBox{
+        width: 25%;
+        margin-left: 50px;
+    }
+    
+    .titleBox{
+        width:70%;
+        text-align: start;
+    }
+
+    .textBox{
+        width: 69%;
+        float: left;
+        padding-top: 15px;
+    
+    }
     
 }
 
@@ -103,6 +119,23 @@
     .invisible3{
         visibility: hidden;
     }
+    .slBox{
+        width: 40%;
+        margin-left: 50px;
+    }
+    
+    .titleBox{
+        width:55%;
+        text-align: left;
+    }
+
+    .textBox{
+        width: 69%;
+        float: left;
+        padding-top: 25px;
+    
+    }
+   
     
 }
 
@@ -114,6 +147,7 @@
 
     .slBox{
         width: 90%;
+        margin: auto;
     }
 
     .titleBox{
@@ -122,6 +156,7 @@
     }
 .textBox{
     float: left;
+    
 
 }
 
