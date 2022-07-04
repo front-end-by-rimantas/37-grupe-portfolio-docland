@@ -59,8 +59,6 @@
     font-weight: 600;
 }
 
-
-
 .hero-star-rating {
     font-size: 22px;
     color: #fcbf21;
@@ -74,6 +72,10 @@
 
 .hero-btn {
     background-color: #fbc006;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 33px;
+    text-transform: capitalize;
     border: none;
 }
 
@@ -87,6 +89,7 @@
     justify-content: center;
     align-items: center;
     background-color: #fbc006;
+    border: none;
     position: absolute;
     z-index: 2;
     top: 50%;
@@ -98,6 +101,7 @@
 }
 
 .play-btn:hover {
+    
     background-color: #5dd9c1;
 }
 
@@ -134,6 +138,9 @@
 }
 
 .img-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     z-index: 1;
 }
@@ -156,9 +163,23 @@
     z-index: -1;
 }
 
+@media (max-width: 1200px) {
+    .hero-img-top-left,
+    .hero-img-bot-right {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-img-top-left,
+    .hero-img-bot-right {
+        display: none;
+    }
+}
+
 @media (max-width: 786px) {
     .hero-img-top-left,
-    .hero-img-top-right {
+    .hero-img-bot-right {
         display: none;
     }
 }
@@ -166,7 +187,7 @@
 
 @media (max-width: 480px) {
     .hero-img-top-left,
-    .hero-img-top-right {
+    .hero-img-bot-right {
         display: none;
     }
 }
