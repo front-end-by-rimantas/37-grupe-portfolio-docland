@@ -26,12 +26,16 @@
 
 }
 
+.slContainer{
+    width: 100%;
+    height: 100%;
+    margin-top: 140px;
+}
 
 .slBox{
     float: left;
-    width: 280px;
+    width: 290px;
     height: 150px;
-    margin-top: 150px;
     background-color: white;
     border-radius: 20px;
     margin-right: 25px;
@@ -41,8 +45,8 @@
 .iconBox{
     float: left;
     width:80px;
-    height: 150px;
-    color: royalblue;
+    height: 100%;
+    color: #1d00ff;
     background-color: #e9e6ff;
     font-size: 50px;
     text-align: center;
@@ -52,7 +56,7 @@
     
 }
 .titleBox{
-    width:200px;
+    width:210px;
     height: 50px;
     float: right;
     font-size: 25px;
@@ -65,7 +69,7 @@
 }
 .textBox{
     font-size: 20px;
-    width: 200px;
+    width: 210px;
     float: right;
     padding-left: 10px;
     text-align:left;
@@ -82,5 +86,6 @@
 
 .blue{
     background-color: #d7eff9;
+    color: #45c7fd;
 
 }
