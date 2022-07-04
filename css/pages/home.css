@@ -163,12 +163,12 @@
     z-index: -1;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .hero-img-top-left,
     .hero-img-bot-right {
         display: none;
     }
-}
+} */
 
 @media (max-width: 992px) {
     .hero-img-top-left,
