@@ -91,3 +91,38 @@
     color: #45c7fd;
 
 }
+
+@media (max-width: 1400px){
+    .invisible4{
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .invisible3{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media (max-width:700px){
+    .invisible2{
+        visibility: hidden;
+    }
+
+    .slBox{
+        width: 90%;
+    }
+
+    .titleBox{
+        width:70%;
+        text-align: center;
+    }
+.textBox{
+    float: left;
+
+}
+
+}
