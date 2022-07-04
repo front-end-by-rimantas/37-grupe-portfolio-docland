@@ -9,3 +9,7 @@ body * {
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+body {
+    background: linear-gradient(to bottom,#fff 0,rgba(228,255,239,.8) 20%,rgba(228,255,239,0) 100%);
+}
