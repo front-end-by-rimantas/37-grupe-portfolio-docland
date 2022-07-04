@@ -7,10 +7,364 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/pages/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    CONTENT
+    <!--header start-->
+        <header class="container header">
+        <div class="row">
+            <div class="burg-menu col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="burg-menu-logo col-8">
+                    <a href="#">
+                        <img src="./img/header-logo/crs-logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="burg-menu-btn col-4">
+                    <span class="burg-btn"></span>
+                </div>
+            </div>
+            <div class="col-12 main-nav">
+                <div class="header-left col-2 col-xl-2">
+                    <a href="#">
+                        <img src="../img/header-logo/crs-logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="header-right col-10 col-lg-8 mr-lg-1">
+                    <nav class="links">
+                        <a href="#">Home</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Career</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                    <div class="login">
+                        <a href="#">Login</a>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn-join-now">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--header end-->
+
+<!--hero start-->
+    <section class="container">
+        <div class="row hero-content ">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div>
+                        <i class="hero-star-rating fa fa-star"></i>
+                        <i class="hero-star-rating fa fa-star"></i>
+                        <i class="hero-star-rating fa fa-star"></i>
+                        <i class="hero-star-rating fa fa-star"></i>
+                        <i class="hero-star-rating fa fa-star-half-o"></i>
+                        <span class="star-rating-span">(2.3k )</span>
+                    </div>
+                    <h1 class="hero-title">Learn UX Design</h1>
+                    <p class="hero-author">With<span class="hero-author-name"> Don Norman</span></p>
+                    <p class="hero-description">Design High-Impact User Experiences. Research, Design, and Prototype effective, visually-driven websites and apps.</p>
+                    <div class="hero-btn-box">
+                        <a class="btn hero-btn hero-btn-hover" href="#">enroll now</a>
+                        <a class="hero-link" href="#">financial aid available</a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="img-box">
+                        <img class="hero-img-top-left" src="./img/heroes/cbat.png" alt="top-left-img">
+                        <img class="hero-img-bot-right" src="./img/heroes/cbab.png" alt="bot-right-img">
+                        <img class="hero-img" src="./img/heroes/course-b.png" alt="hero-img">
+                        <a class="btn play-btn" href="https://youtu.be/oHg5SJYRHA0">
+                            <i class="play fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </section>
+<!--hero end-->
+
+<!--stats start-->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-8 ml-2">
+
+                    <div class="statsstyle">
+
+                    <div class="stats1">
+                        <p>2125</p>
+                        <p class="stats2">Enrolled Students</p>
+                    </div>
+
+                    <div class="stats1">
+                         <p>5 weeks</p>
+                         <p class="stats2">Estimated Complete Time</p>
+                    </div>
+
+                    <div class="stats1">
+                        <p>25 September</p>
+                        <p class="stats2">Estimated Complete Time</p>
+                    </div>
+
+                    <div class="stats1">
+                        <p>English</p>
+                        <p class="stats2">Estimated Complete Time</p>
+                    </div>
+
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--stats end-->
+
+
+<!--clock start-->
+<section class="container">
+    <div class="row">
+        <div class="col-10 ml-1 mr-1 col-md-8 ml-md-2 mr-md-2 col-lg-6 ml-lg-3 mr-lg-3 clock">
+            <div class="clock-title-cont">
+                <h4 class="clock-title">Close in</h4>
+            </div>
+            <div class="time">
+                <div>
+                    <div class="time1">12</div>
+                    <div class="time2">Days</div>
+                </div>
+                <div>
+                    <div class="time1">12</div>
+                    <div class="time2">Hours</div>
+                </div>
+                <div>
+                    <div class="time1">00</div>
+                    <div class="time2">Minutes</div>
+                </div>
+                <div>
+                    <div class="time1">13</div>
+                    <div class="time2">Seconds</div>
+                </div>
+            </div> 
+        </div>   
+    </div> 
+</section>
+<!--clock end-->
+
+<!--karusele start-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            
+
+            <div class = "slider1">
+                
+                    <h2>What You'll Learn From This Course</h2>
+            
+                <button class="slBtn" onclick="prev()"> > </button>
+                <button class="slBtn" onclick="next()"> < </button>
+                <div class ="imgBox">
+                    <img src="./img/slider1/slider1.jpg" alt="" class="slider-img"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./js/components/slider1.js"></script>
+<!--karusele end-->
+
+
+<!---->
+<!--Course syllabus download start-->
+<section class="container">
+    <div class="row">
+        <div class="col-10 ml-1 ">
+            <h1 class="CourseSyllabusDownload0">Course Syllabus</h1>
+            <a class="CourseSyllabusDownload1" href="#">Download syllabus</a>
+            
+        </div>
+    </div>
+</section>
+<!--Course syllabus download end-->
+
+<!--course syllabus content start-->
+    <section class="container">
+        <div class="row">
+            <h2 class="col-12">Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Week 1
+            </div>
+            <div class="col-12">
+                Week 2
+            </div>
+            <div class="col-12">
+                Week 3
+            </div>
+            <div class="col-12">
+                Week 4
+            </div>
+            <div class="col-12">
+                Week 5
+            </div>
+        </div>
+    </section>
+<!--course syllabus content end-->
+
+<!--course benefit start-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+           Course benefits
+        </div>
+</section>
+<!--course benefit end-->
+
+
+<!--pricing start-->
+<h2 class="section-title">Pricing</h2>
+<section class="container">
+    <div class="row pricing">
+        <div class="col-4 ml-2">
+            <div class="pricebox">
+                <div class="money">
+                    <p>$175</p>
+                    <span>Monthly</span>
+                </div>
+                <p>Life can be unpredictable. Get maximum flexibility to learn at your own pace.</p>
+                <div class="pricelist">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Monthly Subscription</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Access only 1 item</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Join with community</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> One to one mentorship</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn btnprice1">Enroll Now</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="pricebox priceboxtwo">
+                <div class="money">
+                    <p class="pricetag2">$870</p>
+                    <span>Yearly</span>
+                </div>
+                <p>Paid yearly and get 15% discount. Get maximum flexibility to learn at your pace.</p>
+                <div class="pricelist">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Monthly Subscription</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Access only 1 item</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Join with community</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> One to one mentorship</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn btnprice2">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--pricing end-->
+
+<!--stundent reviews start-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+           <h1>Student reviews</h1>
+        </div>
+        <div class="col-6">
+                <div class="Sara">
+                    <div class="picandname">
+                        <img class="peoplepic" src="./img/people/Sara.png" alt="Sara">
+                        <div class="nameAndStars">
+                            <h3 class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></h3>
+                            <h3 class="namestyle">Sara Taylor</h3>
+                        </div>
+                    </div>
+                    <p>The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+
+                </div>
+
+                
+        </div>
+        <div class="col-6">
+                <div class="Dorji">
+                    <div class="picandname">
+                        <img class="peoplepic" src="./img/people/Dorji.png" alt="Dorji">
+                        <div class="nameAndStars">
+                            <h3 class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></h3>
+                            <h3 class="namestyle">Dorji Taylor</h3>
+                        </div>   
+                    </div>
+                    <p>The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+                </div>
+        </div>
+        
+        <div class="col-4 ml-2">
+            <div class="ratings">
+                <strong class="ratings-averange">4.84/5</strong>
+                <p>Averange ratings</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="ratings">
+                <strong class="ratings-student">15.5k</strong>
+                <p>Student ratings</p>
+            </div>    
+        </div>
+        <div class="col-12">
+            <div class="ratingsButton">
+                <button class="btn">View All Reviews</button>
+            </div>    
+        </div>
+    </div> 
+</section>
+<!--student reviews start-->
+
+<!--subscribe form start-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="Sendemail">
+                <form class="subscribe">
+                    <h2>Become A Good Designer From Beginner To
+                        Expert Grab This Course Now.</h2>
+                    <input class="col-6" id="email" type="email" placeholder="Enter your email" required>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--subscribe form end-->
+
+<!--course instructor start-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+           Course instruktor
+        </div>
+</section>
+<!--course instructor end-->
+
+<!--footer start-->
+<footer class="container">
+    <div class="row">
+        <div class="col-12">Copyright 2022 &copy; By Daniels (modyfied by <a href="https://github.com/front-end-by-rimantas">Rimantas</a> ) All Rights Reserved</div>
+    </div>
+</footer>
+<!--footer end-->
+
+<!--back to top button start-->
+back to top
+<!--back to top button end-->
+   
 </body>
 
 </html>
