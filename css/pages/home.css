@@ -25,27 +25,17 @@ body > .container:first-child {
 
 .main-nav {
     padding: 0;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.header-right {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-
-}
+.header-right,
 .header-right > .links {
     display: flex;
-    justify-content: space-between;
+
 }
 
 .links > a {
@@ -64,8 +54,9 @@ body > .container:first-child {
 
 .login {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .login > a {
     color: #fbc006;
@@ -92,11 +83,6 @@ body > .container:first-child {
     background-color: #fbc006;
     position: absolute;
 }
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .btn-join-now {
     background-color: #5dd9c1;
@@ -117,28 +103,40 @@ body > .container:first-child {
 }
 
 @media (min-width: 992px) {
-    .header-left,
     .header-right,
+    .header-right > .login,
     .header-right > .links {
         gap: 20px;
     }
 }
 
 @media (max-width: 991px) {
-    .header-left,
-    .header-left,
-    .header-right {
+        .links > a,
+        .login {
         display: none;
     }
 }
 
 @media (min-width: 1200px) {
-    .header-left,
     .header-right,
+    .header-right > .login,
     .header-right > .links {
         gap: 40px;
     }
 }
+
+@media (min-width: 1200px) {
+    .burg-menu-btn{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .burg-menu-btn {
+        display: none;
+    }
+}
+
 
 /* header end */
 

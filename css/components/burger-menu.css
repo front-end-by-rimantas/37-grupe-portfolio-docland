@@ -1,16 +1,3 @@
-.burg-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.burg-menu-btn,
-.burg-menu-logo {
-    padding-top: 35px;
-}
-
 .burg-menu-btn {
     cursor: pointer;
 }
