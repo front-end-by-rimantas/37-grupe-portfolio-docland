@@ -82,3 +82,35 @@ margin:100px;
     color: black;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+    .Docland{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .features{
+        width:50%;
+        margin-top:50px;
+    }
+    .Subscribe{
+        width: 80%;
+        margin-top:50px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .Docland{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .features{
+        width:50%;
+        margin-top:50px;
+    }
+    .Subscribe{
+        width: 80%;
+        margin-top:50px;
+    }
+
+}
