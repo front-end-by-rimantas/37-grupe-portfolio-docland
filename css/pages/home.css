@@ -122,18 +122,30 @@ box-shadow: 0 2px 16px #ccc;
 }
 @media (max-width: 1200px) {
     .pricebox-container {
-    width: var(--col6);
-    margin-left: 0;
+    width: var(--col6) !important;
+    margin-left: 0 !important;
 }
 }
-@media (max-width: 480px) {
+@media (max-width: 786px) {
     .pricing {
         display: flex;
         flex-wrap: wrap;
     }
     .pricebox-container {
+        width: var(--col8) !important;
+        margin: 0px auto 10px !important;
+    }
+    .money {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+@media (max-width: 400px) {
+    .pricebox {
+        padding: 25px 30px 40px;
+    }
+    .money > span {
+        align-self: flex-end;
     }
 }
 /* pricing end */
