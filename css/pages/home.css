@@ -248,14 +248,23 @@ font-weight: normal;
 }
 @media (max-width: 575px) {
   .time {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
   .time1 {
     font-size: 38px;
   }
   .time2 {
     font-size: 16px;
-    padding-bottom: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .time {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+        margin-bottom: 20px; 
+    }
+    .time2 {
+        padding-bottom: 25px;
     }
 }
 /* clock end */
