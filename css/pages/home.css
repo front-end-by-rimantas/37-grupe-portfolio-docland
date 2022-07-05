@@ -146,7 +146,7 @@
 }
 
 .img-box > .hero-img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .img-box > .hero-img-bot-right{
@@ -163,12 +163,13 @@
     z-index: -1;
 }
 
-/* @media (max-width: 1200px) {
+
+@media (max-width: 1050px) {
     .hero-img-top-left,
     .hero-img-bot-right {
         display: none;
     }
-} */
+}
 
 @media (max-width: 992px) {
     .hero-img-top-left,
