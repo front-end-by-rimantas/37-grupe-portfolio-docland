@@ -1,0 +1,35 @@
+.footer1{
+width: 85%;
+height: 400px;
+margin:100px;
+
+}
+
+.Docland{
+    width: 30%;
+}
+.footerTitle{
+    padding-bottom: 30px;
+    font-size: 25px;
+
+}
+
+.footerText{
+    line-height: 30px;
+}
+
+.socialIcon >i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+
+.socialIcon >i:hover{
+    background-color: #5dd9c1;
+    cursor: pointer;
+    
+}
