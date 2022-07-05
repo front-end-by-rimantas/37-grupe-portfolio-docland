@@ -8,10 +8,10 @@
 /* components */
 @import '../components/button.css';
 @import '../components/footer.css';
-@import '../components/header.css';
 @import '../components/burger-menu.css';
 @import '../components/section-title.css';
 @import '../components/slider1.css';
+@import '../components/header.css';
 
 
 /* CUSTOM STYLE */
