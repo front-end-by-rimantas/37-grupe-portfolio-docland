@@ -23,6 +23,10 @@ body > .container:first-child {
     padding-top: 0;
 }
 
+.container > .row:first-child {
+    margin-top: 0;
+}
+
 .main-nav {
     padding: 0;
     height: 100px;
