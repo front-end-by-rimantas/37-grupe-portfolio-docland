@@ -7,6 +7,8 @@ margin:100px;
 
 .Docland{
     width: 30%;
+    float: left;
+    margin-right: 30px;
 }
 .footerTitle{
     padding-bottom: 30px;
@@ -31,5 +33,18 @@ margin:100px;
 .socialIcon >i:hover{
     background-color: #5dd9c1;
     cursor: pointer;
-    
+}
+.features{
+    width: 20%;
+    float: left;
+}
+
+.featuresLinks > a{
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.featuresLinks :hover{
+    color: #5dd9c1;
 }
