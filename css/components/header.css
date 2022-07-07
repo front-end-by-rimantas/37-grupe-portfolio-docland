@@ -35,7 +35,7 @@ body > .container:first-child {
     text-transform: capitalize;
     transition: 0.3s linear;
 }
-.links a:first-child {
+.links .first-link {
     color: #5dd9c1;
 }
 
@@ -140,14 +140,18 @@ body > .container:first-child {
 }
 .dropdown-content > a {
     float: none;
-    padding: 12px 36px;
+    padding: 12px 40px;
     line-height: 26px;
+    color: #707070;
     display: block;
     text-align: left;
     text-decoration: none;
 }
-.dropdown-content > a:first-child {
-    color: #707070;
+.dropdown > a:hover {
+    color: #5dd9c1;
+}
+.dropdown-content .green-link {
+    color: #5dd9c1;
 }
 .dropdown:hover .dropdown-content {
     display: block;
