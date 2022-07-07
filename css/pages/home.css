@@ -224,17 +224,22 @@
     align-items: flex-start;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1200px) {
     .statsstyle {
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px;
-        margin-bottom: 20px; 
+        width: 100%;
+
     }
     .stats1 {
-        padding-bottom: 25px;
+        width:50%;
+        margin-top: 50px;
     }
 }
+@media (max-width: 650px){
 
+    .stats1 {
+        width:100%;
+    }
+}
 
 
 
