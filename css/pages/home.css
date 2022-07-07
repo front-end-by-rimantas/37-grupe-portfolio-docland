@@ -13,6 +13,8 @@
 @import '../components/slider1.css';
 @import '../components/header.css';
 @import '../components/lightbox.css';
+@import '../components/slider2.css';
+
 
 
 /* CUSTOM STYLE */
@@ -322,6 +324,166 @@ font-weight: normal;
 /* course syllabus download end */
 
 /* course syllabus content start */
+.WeekBox{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #777;
+    padding: 40px;
+    width: 100%;
+}
+.WeekNumber{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 25%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.WeekNumber img{
+    width: 30px;
+    height: 30px;
+}
+.WeekPlan{
+    font-size: 25px;
+    margin: 20px;
+}
+.ListAndDropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ListAndDropdown i{
+    cursor: pointer;  
+}
+.AboutPlan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #6c757d;
+    font-size: 20px;
+   
+}
+.lecture{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: auto;
+    gap:20px;
+}
+.courseLine{
+    border: 0.5px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.dropWeekPlan{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dropWeekPlan p{
+    color: #6c757d;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+.dropWeekPlan i{
+    color: #C9FFF5;
+}
+.courseList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.courseName{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.courseLength{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+}
+.courseStatus{
+    display: flex;
+    flex-direction: column;
+    color: #5DD9C1;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+    cursor: pointer;
+}
+.courseStatus i{
+    color: #292929;
+}
+
+@media(max-width: 1000px){
+    .lecture{
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        width: auto;
+        gap:20px;
+        font-size: 19px;
+    }
+    .WeekBox{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .WeekNumber{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+    .courseName{
+        width: 70%;
+    }
+}
+@media(max-width: 700px){
+    .WeekBox{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .WeekNumber{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+    }
+    .lecture{
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        width: auto;
+        font-size: 15px;
+    }
+    .CourseSyllabusDownload1{
+        display: none;
+    }
+    .courseName p{
+        font-size: 15px;
+    }
+    .courseLength{
+        font-size: 15px;
+    }
+    .courseStatus{
+        font-size: 15px;
+    }
+
+    }
 /* course syllabus content end */
 
 /* course benefit start */
@@ -408,6 +570,34 @@ box-shadow: 0 2px 16px #ccc;
     background-color: #FBC006;
     color: #fff;
 }
+@media (max-width: 1200px) {
+    .pricebox-container {
+    width: var(--col6) !important;
+    margin-left: 0 !important;
+}
+}
+@media (max-width: 786px) {
+    .pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pricebox-container {
+        width: var(--col8) !important;
+        margin: 0px auto 10px !important;
+    }
+    .money {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 400px) {
+    .pricebox {
+        padding: 25px 30px 40px;
+    }
+    .money > span {
+        align-self: flex-end;
+    }
+}
 /* pricing end */
 
 /* subscribe form start */
@@ -418,6 +608,7 @@ box-shadow: 0 2px 16px #ccc;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 80px;
     
     
 }
@@ -449,6 +640,79 @@ box-shadow: 0 2px 16px #ccc;
 /* subscribe form end */
 
 /* course instructor start */
+.instructor-container {
+  display: flex;
+  justify-content: space-between;
+}
+.instruktor-box {
+  padding: 60px 50px;
+  width: 48%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.zainstruktor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.zainstruktor > img {
+    margin-right: 20px;
+}
+.about-instructor > h6 {
+    font-size: 24px;
+}
+.about-instructor > p {
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.about-instructor > ul > li {
+    display: flex;
+    gap: 15px;
+}
+.about-instructor > ul > li > i {
+    width: 20px;
+    text-align: center;
+}
+.about-instructor > ul > li > p {
+    text-align: center;
+}
+.instruktor-box > p {
+    font-size: 20px;
+    line-height: 1.78;
+    color: #707070;
+    font-weight: 300;
+}
+@media (max-width:1400px) {
+    .zainstruktor > img {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:785px) {
+    .instructor-container {
+        flex-wrap: wrap;
+    }
+    .instruktor-box {
+        width: 90%;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .instruktor-box {
+        padding: 30px 25px;
+    }
+    .zainstruktor {
+        justify-content: center;
+    }
+    .about-instructor {
+        align-self: flex-start;
+    }
+}
 /* course instructor end */
 
 /* footer start */
@@ -458,10 +722,20 @@ box-shadow: 0 2px 16px #ccc;
 /* back to top end */
 
 /* Student review start*/
+.titleStudents {
+    display: flex;
+   float: left;
+   font-size: 35px;
+}
+.students{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
 .Sara{  
     background-color: white;
-    box-shadow: 0px 5px 10px #777;
-    width: 100%;
+    box-shadow: 0px 5px 10px #777;   
     border-radius: 15px;
     padding: 40px;
 }
@@ -475,7 +749,6 @@ box-shadow: 0 2px 16px #ccc;
 .Dorji{  
     background-color: white;
     box-shadow: 0px 5px 10px #777;
-    width: 100%;
     border-radius: 15px;
     padding: 40px;
 }
@@ -496,6 +769,8 @@ box-shadow: 0 2px 16px #ccc;
 .picandname{
     display: flex;
     flex-direction:row;
+    width: 100%;
+    
 }
 .namestyle{
     color: #5f52dc;
@@ -506,13 +781,17 @@ box-shadow: 0 2px 16px #ccc;
 }
 
 .peoplepic{
-    width: 20%;
+    width: 80px;
+    height: 80px;
+}
+.ratingsAlign{
+    display: flex;
+    justify-content: center;
+    gap:100px;
 }
 .ratings{
-    margin-top: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+    margin-top: 40px;
+    width: 200px;   
 }
 .ratingsButton{
     margin-top: 5%;
@@ -523,16 +802,48 @@ box-shadow: 0 2px 16px #ccc;
 .ratings p{
     color: #5c6b56;
     font-size: 25px;
+    text-align: center;
+    
 }
 .ratings-student{
     font-size: 70px;
     color: #5dd9c1;
+    display: flex;
+    justify-content: center;
 }
 .ratings-averange{
     font-size: 70px;
     color: #fbc006;
+    display: flex;
+    justify-content: center;
 }
 
+@media(max-width: 1000px){
+}
+@media(max-width: 700px){
+    .students{
+        display: flex;
+        flex-direction: column;
+    }
+    .ratingsAlign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .ratingsButton{
+        margin-top: 40px;
+    }
+    .Sendemail{  
+        margin-top: 40px;
+    }
+    .subscribe{
+        font-size: 20px;
+        padding: 80px 0px 50px 0px;
+        
+    }
+}
 
 
 /* Student review end*/
