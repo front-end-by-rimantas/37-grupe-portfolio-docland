@@ -4,15 +4,7 @@ const box = document.querySelector('#lightBox');
 
 const play = document.querySelector('#playBtn');
 
-const btnClose = document.querySelector('.close-player');
-
-box.addEventListener('click', function(){
-    console.log('clicked');
-});
-
-play.addEventListener('click', function(){
-    console.log('clicked');
-});
+const btnClose = document.querySelector('#closeBtn');
 
 const closeLightbox = () => {
     box.style.display = 'none'
@@ -30,7 +22,16 @@ play.addEventListener('click', () => {
     showLightbox();
 });
 
+box.addEventListener('click', () => {
+    closeLightbox();
+});
+addEventListener('keydown', ({code}) => {
+    if (code === 'Escape') {
+        closeLightbox();
+    }
+});
 
 
-//  playBtn closeBtn lightBox
+
+
 /*Lightbox end*/
