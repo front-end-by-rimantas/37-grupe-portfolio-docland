@@ -1,15 +1,34 @@
 /*Lightbox start*/
 
-let box = document.getElementById('lightBox');
+const box = document.querySelector('#lightBox');
 
-let play = document.getElementById('playBtn');
+const play = document.querySelector('#playBtn');
 
-let close = document.getElementById('closeBtn');
+const btnClose = document.querySelector('.close-player');
 
-play.onclick = function(){
-    lightbox.style.display = 'block';
-}
+box.addEventListener('click', function(){
+    console.log('clicked');
+});
 
+play.addEventListener('click', function(){
+    console.log('clicked');
+});
+
+const closeLightbox = () => {
+    box.style.display = 'none'
+};
+
+const showLightbox = () => {
+    box.style.display = 'flex'
+};
+
+btnClose.addEventListener('click', () => {
+    closeLightbox();
+});
+
+play.addEventListener('click', () => {
+    showLightbox();
+});
 
 
 
