@@ -1,5 +1,5 @@
 .footer1{
-width: 85%;
+width: 100%;
 height: 400px;
 margin:auto;
 
@@ -84,14 +84,52 @@ margin:auto;
     cursor: pointer;
 }
 
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyr{
+margin-top: 50px;
+
+}
+
+@media only screen and (max-width: 546px){
+    .Docland{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .Subscribe{
+        width: 100%;
+        margin-top:50px;
+    }
+    .footer-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .features{
+        margin: auto;
+        text-align: center;
+        width: 10%;
+        margin-top:50px;
+    }
+}
+
+
+
 @media only screen and (max-width: 800px) {
     
     .Docland{
-        width: 80%;
+        width: 100%;
         margin-top: 50px;
-        
     }
     .features{
+        margin: auto;
         width:50%;
         margin-top:50px;
     }
@@ -105,15 +143,17 @@ margin:auto;
 
 @media only screen and (max-width: 1280px) {
     .Docland{
-        width: 80%;
+        width: 100%;
         margin-top: 50px;
     }
     .features{
-        width:50%;
+        margin:auto;
+        margin-left: 50px;
+        width: 40%;
         margin-top:50px;
     }
     .Subscribe{
-        width: 80%;
+        width: 100%;
         margin-top:50px;
     }
 
