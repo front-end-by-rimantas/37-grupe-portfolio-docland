@@ -84,20 +84,22 @@ margin:auto;
     cursor: pointer;
 }
 
-.footer-center{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .copyr{
 margin-top: 50px;
 
 }
 
-@media only screen and (max-width: 546px){
+@media only screen and (max-width: 990px){
+
+    .footer-center{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
     .Docland{
         width: 100%;
         margin-top: 50px;
@@ -120,26 +122,6 @@ margin-top: 50px;
     }
 }
 
-
-
-@media only screen and (max-width: 800px) {
-    
-    .Docland{
-        width: 100%;
-        margin-top: 50px;
-    }
-    .features{
-        margin: auto;
-        width:50%;
-        margin-top:50px;
-    }
-    .Subscribe{
-        width: 80%;
-        margin-top:50px;
-    }
-    
-
-}
 
 @media only screen and (max-width: 1280px) {
     .Docland{
