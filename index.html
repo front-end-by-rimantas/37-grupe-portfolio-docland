@@ -76,13 +76,27 @@
                         <img src="./img/heroes/cbab.png" alt="bot-right-img">
                     </div>
                     <img class="hero-img" src="./img/heroes/course-b.png" alt="hero-img">
-                    <a class="btn play-btn" href="https://youtu.be/oHg5SJYRHA0">
+                    <button id="playBtn" class="btn play-btn" href="#">
                         <i class="play fa fa-play"></i>
-                    </a>
+                    </button>
                 </div>
         </div>
     </section>
 <!--hero end-->
+
+<!-- Lightbox start -->
+
+<section class="row">
+    <div id="lightBox" class="lightbox">
+        <div class="lightbox-content">
+            <button id="closeBtn" class="close-player"> &times;</button>
+            <iframe class="lightbox-player" width="640" height="480" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="./js/components/lightbox.js"></script>
+</section>
+
+<!-- Lightbox end -->
 
 <!--stats start-->
 
