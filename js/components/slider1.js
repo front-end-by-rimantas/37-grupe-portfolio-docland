@@ -1,5 +1,5 @@
 const slider_img =document.querySelector('.slider-img');
-let images = ['slider1.jpg', 'slider2.jpg','slider3.jpg','slider1.jpg','slider2.jpg'];
+let images = ['Col1.png', 'Col2.png','Col3.png','Col4.png','Col1.png'];
 let i = 0;
 
 

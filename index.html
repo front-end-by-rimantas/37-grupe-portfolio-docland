@@ -170,20 +170,33 @@
 <section class="container">
     <div class="row">
         <div class="col-12">
-            
-
-            <div class = "slider1">
-                
-                    <h2>What You'll Learn From This Course</h2>
-            
-                <button class="slBtn" onclick="prev()"> > </button>
-                <button class="slBtn" onclick="next()"> < </button>
-                <div class ="imgBox">
-                    <img src="./img/slider1/slider1.jpg" alt="" class="slider-img"/>
+            <div class = "slider1">   
+                <h2>What You'll Learn From This Course</h2>
+                <div class="buttonsSld">
+                    <button class="slideBtn" onclick="next()"> < </button>
+                    <button class="slideBtn" onclick="prev()"> > </button>
                 </div>
-
             </div>
-        </div>
+            <div class ="imgBox">             
+                    <!-- <img src="./img/slider1/slider1.jpg" alt="" class="slider-img"/> -->
+                    <div class="sliderColumn1">
+                        <img src="./img/slider1/Col1.png" alt="design">
+                        <h3>Design Thinking</h3>
+                    </div>
+                    <div class="sliderColumn2">
+                        <img src="./img/slider1/Col2.png" alt="sketch">
+                        <h3>Sketch</h3>
+                    </div>
+                    <div class="sliderColumn3">
+                        <img src="./img/slider1/Col3.png" alt="wireframe">
+                        <h3>Wireframe</h3>
+                    </div>
+                    <div class="sliderColumn4">
+                        <img src="./img/slider1/Col4.png" alt="prototype">
+                        <h3>Prototype</h3>
+                    </div>
+            </div>  
+        </div>   
     </div>
 </section>
 <script src="./js/components/slider1.js"></script>
