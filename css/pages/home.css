@@ -268,6 +268,36 @@ box-shadow: 0 2px 16px #ccc;
 /* footer end */
 
 /* back to top start */
+.back{
+    display: block;
+    border: none;
+    float: right;
+    border-radius: 2cm;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #FBC006;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-self: center;
+}
+
+.btn-top {
+    text-decoration: none;
+    padding: 10px 25px;
+    border:1px solid #5dd9c1;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.back > .btn-top {
+    border: none;
+    padding: 10px;
+
+}
+
 /* back to top end */
 
 /* Student review start*/
