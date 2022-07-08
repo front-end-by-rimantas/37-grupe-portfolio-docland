@@ -150,6 +150,11 @@ body > .container:first-child {
 .dropdown > a:hover {
     color: #5dd9c1;
 }
+.dropdown-content > a:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
 .dropdown-content .green-link {
     color: #5dd9c1;
 }
