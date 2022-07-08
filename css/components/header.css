@@ -25,7 +25,7 @@ body > .container:first-child {
 
 }
 
-.links > a {
+.links a {
     text-decoration: none;
     font-family: ubuntu;
     color: #707070;
@@ -35,7 +35,7 @@ body > .container:first-child {
     text-transform: capitalize;
     transition: 0.3s linear;
 }
-.links a:first-child {
+.links .first-link {
     color: #5dd9c1;
 }
 
@@ -58,7 +58,7 @@ body > .container:first-child {
     color: #fbc006;
 }
 
-.links > a:hover {
+.links a:hover {
     color: #5dd9c1
 }
 
@@ -98,7 +98,7 @@ body > .container:first-child {
 }
 
 @media (max-width: 991px) {
-        .links > a,
+        .links a,
         .login {
         display: none;
     }
@@ -124,5 +124,41 @@ body > .container:first-child {
     }
 }
 
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    box-shadow: 0px 4px 8px 0px #0003;
+    z-index: 3;
+}
+.dropdown-content > a {
+    float: none;
+    padding: 12px 40px;
+    line-height: 26px;
+    color: #707070;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.dropdown > a:hover {
+    color: #5dd9c1;
+}
+.dropdown-content > a:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
 
+.dropdown-content .green-link {
+    color: #5dd9c1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 /* header end */
