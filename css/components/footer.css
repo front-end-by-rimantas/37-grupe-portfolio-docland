@@ -1,0 +1,139 @@
+.footer1{
+width: 100%;
+height: 400px;
+margin:auto;
+
+}
+
+.Docland{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.footerTitle{
+    padding-bottom: 30px;
+    font-size: 25px;
+
+}
+
+.footerText{
+    line-height: 30px;
+}
+
+.socialIcon >i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+
+.socialIcon >i:hover{
+    background-color: #5dd9c1;
+    cursor: pointer;
+}
+.features{
+    width: 20%;
+    float: left;
+}
+
+.featuresLinks > a{
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.featuresLinks :hover{
+    color: #5dd9c1;
+}
+
+.Subscribe{
+    width: 26%;
+    float: left;
+    margin: 0;
+}
+
+.Email{
+    float: left;
+    width: 65%;
+    background-color: #5dd9c1;
+    color: white;
+    height: 70px;
+    margin-top: 25px;
+    padding: 25px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.footerBtn{
+    height: 70px;
+    width: 35%;
+    float: left;
+    margin-top: 25px;
+    margin-left: -30px;
+    padding: 25px ;
+    background-color: #fbc006;
+    color: white;
+    border-radius:40px ;
+    font-size: medium;
+}
+
+.footerBtn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 990px){
+
+    .footer-center{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    
+    }
+    
+    .Docland{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .Subscribe{
+        width: 100%;
+        margin-top:50px;
+    }
+    .footer-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .features{
+        margin: auto;
+        text-align: center;
+        width: 10%;
+        margin-top:50px;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .Docland{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .features{
+        margin:auto;
+        margin-left: 50px;
+        width: 40%;
+        margin-top:50px;
+    }
+    .Subscribe{
+        width: 100%;
+        margin-top:50px;
+    }
+
+}

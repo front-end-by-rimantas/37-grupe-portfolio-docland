@@ -15,49 +15,116 @@
 
 <body>
     <!--header start-->
-        <header class="container header">
+        <header class="container">
+
+            <div class="row">
+                <div class="col-12 main-nav">
+                    <div class="col-2 col-xl-2">
+                        <a href="#">
+                            <img src="./img/header-logo/crs-logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="header-right col-10 col-lg-8 mr-lg-1">
+                            <nav class="links">
+                                <a href="#">Home</a>
+                                <a href="#">Pricing</a>
+                                <a href="#">Career</a>
+                                <a href="#">Pages</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Contact</a>
+                            </nav>
+                            <div class="login">
+                                <a href="#">Login</a>
+                                <button class="btn btn-join-now">Join Now</button>
+                            </div>
+                        </div>
+                        <div class="burg-menu-btn col-4">
+                            <span class="burg-btn"></span>
+
         <div class="row">
-            <div class="burg-menu col-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="burg-menu-logo col-8">
-                    <a href="#">
-                        <img src="./img/header-logo/crs-logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="burg-menu-btn col-4">
-                    <span class="burg-btn"></span>
-                </div>
-            </div>
             <div class="col-12 main-nav">
-                <div class="header-left col-2 col-xl-2">
+                <div class="col-2 col-xl-2">
                     <a href="#">
-                        <img src="../img/header-logo/crs-logo.png" alt="Logo">
-                    </a>
-                </div>
-                <div class="header-right col-10 col-lg-8 mr-lg-1">
-                    <nav class="links">
-                        <a href="#">Home</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Career</a>
-                        <a href="#">Pages</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
-                    </nav>
-                    <div class="login">
-                        <a href="#">Login</a>
+                        <img src="./img/header-logo/crs-logo.png" alt="Logo">
+                        </a>
                     </div>
-                    <div class="btn-container">
-                        <button class="btn-join-now">Join Now</button>
+                    <div class="header-right col-10 col-lg-8 mr-lg-1">
+                        <nav class="links">
+                            <div class="dropdown">
+                                <a class="first-link" href="#">Home</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Plugins</a>
+                                    <a href="#">Email Marketing</a>
+                                    <a href="#">App Landing</a>
+                                    <a href="#">Affiliate Marketing</a>
+                                    <a href="#">Analytics</a>
+                                    <a href="#">CRM</a>
+                                    <a href="#">POS</a>
+                                    <a href="#">Payment</a>
+                                    <a class="green-link" href="#">Course</a>
+                                    <a href="#">Ebook</a>
+                                    <a href="#">Management Tools</a>
+                                    <a href="#">Learning Apps</a>
+                                    <a href="#">hero-star-rating</a>
+                                </div>
+                            </div>
+                            <a href="#">Pricing</a>
+                            <div class="dropdown">
+                                <a href="#">Career</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Job Grid</a>
+                                    <a href="#">Job List</a>
+                                    <a href="#">Job Details V1</a>
+                                    <a href="#">Job Details V2</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#">Pages</a>
+                                <div class="dropdown-content">
+                                    <a href="#">About</a>
+                                    <a href="#">Team</a>
+                                    <a href="#">Testimonial</a>
+                                    <a href="#">Service</a>
+                                    <a href="#">Service Style</a>
+                                    <a href="#">Faq</a>
+                                    <a href="#">Sign Up</a>
+                                    <a href="#">Sign In</a>
+                                    <a href="#">404</a>
+                                    <a href="#">Coming-Soon</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#">Blog</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Blog Default</a>
+                                    <a href="#">Blog Details</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#">Contact</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Contact V1</a>
+                                    <a href="#">Contact V2</a>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="login">
+                            <a href="#">Login</a>
+                            <button class="btn btn-join-now">Join Now</button>
+
+                        </div>
                     </div>
                 </div>
+
             </div>
-        </div>
-    </header>
-<!--header end-->
+        </header>
+        <script src="./js/components/header.js"></script>
+    <!--header end-->
 
 <!--hero start-->
-    <section class="container">
+    <section class="container hero-padding">
         <div class="row hero-content ">
-                <div class="col-12 col-md-6 col-lg-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
                     <div>
                         <i class="hero-star-rating fa fa-star"></i>
                         <i class="hero-star-rating fa fa-star"></i>
@@ -75,25 +142,41 @@
                     </div>
                 </div>
                 
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="img-box">
-                        <img class="hero-img-top-left" src="./img/heroes/cbat.png" alt="top-left-img">
-                        <img class="hero-img-bot-right" src="./img/heroes/cbab.png" alt="bot-right-img">
-                        <img class="hero-img" src="./img/heroes/course-b.png" alt="hero-img">
-                        <a class="btn play-btn" href="https://youtu.be/oHg5SJYRHA0">
-                            <i class="play fa fa-play"></i>
-                        </a>
+                <div class="img-box col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="hero-img-top-left">
+                        <img src="./img/heroes/cbat.png" alt="top-left-img">
                     </div>
+                    <div class="hero-img-bot-right">
+                        <img src="./img/heroes/cbab.png" alt="bot-right-img">
+                    </div>
+                    <img class="hero-img" src="./img/heroes/course-b.png" alt="hero-img">
+                    <button id="playBtn" class="btn play-btn" href="#">
+                        <i class="play fa fa-play"></i>
+                    </button>
                 </div>
         </div>
     </section>
 <!--hero end-->
 
+<!-- Lightbox start -->
+
+<section class="row">
+    <div id="lightBox" class="lightbox">
+        <div class="lightbox-content">
+            <button id="closeBtn" class="close-player"> &times;</button>
+            <iframe class="lightbox-player" width="640" height="480" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="./js/components/lightbox.js"></script>
+</section>
+
+<!-- Lightbox end -->
+
 <!--stats start-->
 
     <section class="container">
         <div class="row">
-            <div class="col-8 ml-2">
+            <div class="col-10 ml-1">
 
                     <div class="statsstyle">
 
@@ -161,20 +244,33 @@
 <section class="container">
     <div class="row">
         <div class="col-12">
-            
-
-            <div class = "slider1">
-                
-                    <h2>What You'll Learn From This Course</h2>
-            
-                <button class="slBtn" onclick="prev()"> > </button>
-                <button class="slBtn" onclick="next()"> < </button>
-                <div class ="imgBox">
-                    <img src="./img/slider1/slider1.jpg" alt="" class="slider-img"/>
+            <div class = "slider1">   
+                <h2>What You'll Learn From This Course</h2>
+                <div class="buttonsSld">
+                    <button class="slideBtn" onclick="next()"> < </button>
+                    <button class="slideBtn" onclick="prev()"> > </button>
                 </div>
-
             </div>
-        </div>
+            <div class ="imgBox">             
+                    <!-- <img src="./img/slider1/slider1.jpg" alt="" class="slider-img"/> -->
+                    <div class="sliderColumn1">
+                        <img src="./img/slider1/Col1.png" alt="design">
+                        <h3>Design Thinking</h3>
+                    </div>
+                    <div class="sliderColumn2">
+                        <img src="./img/slider1/Col2.png" alt="sketch">
+                        <h3>Sketch</h3>
+                    </div>
+                    <div class="sliderColumn3">
+                        <img src="./img/slider1/Col3.png" alt="wireframe">
+                        <h3>Wireframe</h3>
+                    </div>
+                    <div class="sliderColumn4">
+                        <img src="./img/slider1/Col4.png" alt="prototype">
+                        <h3>Prototype</h3>
+                    </div>
+            </div>  
+        </div>   
     </div>
 </section>
 <script src="./js/components/slider1.js"></script>
@@ -191,39 +287,158 @@
             
         </div>
     </div>
-</section>
+
 <!--Course syllabus download end-->
 
 <!--course syllabus content start-->
-    <section class="container">
-        <div class="row">
-            <h2 class="col-12">Services</h2>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-12">
+            <div class="WeekBox">
+                <div class="WeekNumber">
+                    <img src="/img/Syllabus icons/Calendar.png" alt="Calendar">
+                    <h3>Week 1</h3>
+                </div>
+                <div class="WeekPlan">
+                    <div class="ListAndDropdown">
+                        <h3>Introduction To UX Design?</h3>
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </div>
+                        <div class="AboutPlan">
+                            <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                        </div> 
+                        <div class="lecture">
+                            <p>3 hours to complete</p>
+                            <p>3 Lectures</p>
+                            <p>2 videos</p>
+                        </div>
+                        
+                        <div class="dropWeekPlan"> 
+                            <hr class="courseLine">
+                            <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i> Welcome and introduction: About Course</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <strong>Preview</strong>
+                                </div>      
+                            </div>
+                             <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i>Introduction about UX Design</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                             <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i>Introduction about UX Design</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                             <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i>The Difference between UI and UX?</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                             <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i>Talking about UX industry</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                             <div class="courseList">
+                                <div class="courseName"><p><i class="fa fa-play-circle-o" aria-hidden="true"></i>What will I be making as a UX Designe</p></div>
+                                <div class="courseLength">
+                                    <p>03:29</p>
+                                </div>
+                                <div  class="courseStatus">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>  
+
+                </div>
+                                
+            </div>               
         </div>
-        <div class="row">
-            <div class="col-12">
-                Week 1
-            </div>
-            <div class="col-12">
-                Week 2
-            </div>
-            <div class="col-12">
-                Week 3
-            </div>
-            <div class="col-12">
-                Week 4
-            </div>
-            <div class="col-12">
-                Week 5
-            </div>
+        <div class="col-12">
+            Week 2
         </div>
-    </section>
+        <div class="col-12">
+            Week 3
+        </div>
+        <div class="col-12">
+            Week 4
+        </div>
+        <div class="col-12">
+            Week 5
+        </div>
+    </div>
+</div>
+</section>
 <!--course syllabus content end-->
 
 <!--course benefit start-->
 <section class="container">
     <div class="row">
         <div class="col-12">
-           Course benefits
+           <div class = "slider2">
+                
+            <h2  class="section-title">Course Benefit </h2>
+    
+        <button class="slBtn" onclick="prev()"> > </button>
+        <button class="slBtn" onclick="next()"> < </button>
+
+        <div class="slContainer visible1">
+        <div class="slBox">
+           <div class ="iconBox">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>    
+            </div>
+          <div class="titleBox">Flexible Deadline</div>
+         <div class="textBox">Lorem ipsum dolor sit, veritatis</div>
+    </div>
+    <div class="slBox visible2 invisible2 ">
+        <div class ="iconBox orange">
+         <i class="fa fa-list-alt" aria-hidden="true"></i>    
+         </div>
+       <div class="titleBox">Project Reviews</div>
+      <div class="textBox">Lorem ipsum dolor sit, veritatis </div>
+ </div>
+
+ <div class="slBox invisible3">
+    <div class ="iconBox green">
+     <i class="fa fa-globe" aria-hidden="true"></i>    
+     </div>
+   <div class="titleBox">100% Online</div>
+  <div class="textBox">Lorem ipsum dolor sit, veritatis</div>
+</div>
+
+<div class="slBox invisible4">
+    <div class ="iconBox blue">
+     <i class="fa fa-users" aria-hidden="true"></i>    
+     </div>
+   <div class="titleBox">1-1 Mentoring</div>
+  <div class="textBox">Lorem ipsum dolor sit, veritatis</div>
+</div>
+
+</div>
+    </div>
+           
         </div>
 </section>
 <!--course benefit end-->
@@ -233,7 +448,7 @@
 <h2 class="section-title">Pricing</h2>
 <section class="container">
     <div class="row pricing">
-        <div class="col-4 ml-2">
+        <div class="col-4 ml-2 pricebox-container">
             <div class="pricebox">
                 <div class="money">
                     <p>$175</p>
@@ -251,7 +466,7 @@
                 <a href="#" class="btn btnprice1">Enroll Now</a>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 pricebox-container">
             <div class="pricebox priceboxtwo">
                 <div class="money">
                     <p class="pricetag2">$870</p>
@@ -277,12 +492,22 @@
 <section class="container">
     <div class="row">
         <div class="col-12">
-           <h1>Student reviews</h1>
+            <h1 class="titleStudents">Student reviews</h1>
+            <!-- <button class="slBtn" onclick="prev()"> > </button>
+            <button class="slBtn" onclick="next()"> < </button>
+            <div class ="imgBox"> -->
         </div>
-        <div class="col-6">
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+           
+        </div>
+        <div class="col-12 students">
                 <div class="Sara">
                     <div class="picandname">
-                        <img class="peoplepic" src="./img/people/Sara.png" alt="Sara">
+                        <img class="peoplepic" src="./img/people/sara.png" alt="Sara">
                         <div class="nameAndStars">
                             <h3 class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></h3>
                             <h3 class="namestyle">Sara Taylor</h3>
@@ -291,13 +516,9 @@
                     <p>The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
 
                 </div>
-
-                
-        </div>
-        <div class="col-6">
                 <div class="Dorji">
                     <div class="picandname">
-                        <img class="peoplepic" src="./img/people/Dorji.png" alt="Dorji">
+                        <img class="peoplepic" src="./img/people/dorji.png" alt="Dorji">
                         <div class="nameAndStars">
                             <h3 class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></h3>
                             <h3 class="namestyle">Dorji Taylor</h3>
@@ -307,13 +528,11 @@
                 </div>
         </div>
         
-        <div class="col-4 ml-2">
+        <div class="col-12 ratingsAlign">
             <div class="ratings">
                 <strong class="ratings-averange">4.84/5</strong>
                 <p>Averange ratings</p>
             </div>
-        </div>
-        <div class="col-4">
             <div class="ratings">
                 <strong class="ratings-student">15.5k</strong>
                 <p>Student ratings</p>
@@ -322,15 +541,9 @@
         <div class="col-12">
             <div class="ratingsButton">
                 <button class="btn">View All Reviews</button>
-            </div>    
-        </div>
+            </div>  
     </div> 
-</section>
-<!--student reviews start-->
 
-<!--subscribe form start-->
-<section class="container">
-    <div class="row">
         <div class="col-12">
             <div class="Sendemail">
                 <form class="subscribe">
@@ -341,30 +554,95 @@
             </div>
         </div>
     </div>
+</div>
 </section>
-<!--subscribe form end-->
+<!--student reviews start-->
 
 <!--course instructor start-->
 <section class="container">
     <div class="row">
-        <div class="col-12">
-           Course instruktor
+        <div id="instructor-box" class="col-12 instructor-container">
+        </div>
         </div>
 </section>
 <!--course instructor end-->
 
 <!--footer start-->
+
+
+
 <footer class="container">
+    <div class="row footer-center">
+                <div class="col-12 col-lg-4 col-xxl-4 footerContentBlock Docland">
+                    <div class="footerTitle">
+                        <h3>DOCLand</h3>
+                    </div>
+                    <div class="footerText"> 
+                        <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. 
+                        Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt sit amet est.</p>
+                    </div>
+                    <div class="socialIcon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                </div>
+            <div class="col-12 col-lg-2 col-xxl-2 footerContentBlock features">
+                <div class="footerTitle">
+                    <h3>Features</h3>
+                </div>
+                <div class="featuresLinks">
+                    <a href="#">Timeline Review</a> <br>
+                    <a href="#">Custom Fields</a> <br>
+                    <a href="#">Custom Templates</a> <br>
+                    <a href="#">Task Dependencies</a> 
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-2 col-xxl-2 footerContentBlock features company">
+                <div class="footerTitle">
+                    <h3>Company</h3>
+                </div>
+                <div class="featuresLinks">
+                    <a href="#">About Us</a> <br>
+                    <a href="#">Pricing Plan</a> <br>
+                    <a href="#">Privacy & Policy</a> <br>
+                    <a href="#">Latest News</a> 
+                </div>
+            </div>
+        
+
+            <div class="col-12 col-lg-4 col-xxl-4 footerContentBlock Subscribe">
+                <div class="footerTitle">
+                    <h3>Subscribe Newsletter</h3>
+                </div>
+                <div class="footerText"> 
+                    <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+                </div>
+                <div class="Email">
+                    <label for="email">Enter your email</label>
+                </div>
+                <div class="footerBtn">
+                    <p>Subscribe</p>
+                </div>
+            </div>
+    
+        
+    
+</div>
     <div class="row">
-        <div class="col-12">Copyright 2022 &copy; By Daniels (modyfied by <a href="https://github.com/front-end-by-rimantas">Rimantas</a> ) All Rights Reserved</div>
+        <div class="col-12 copyriht">Copyright 2022 &copy; By Daniels (modyfied by <a href="https://github.com/front-end-by-rimantas">PHP VLN 22 05 16</a> ) All Rights Reserved</div>
     </div>
 </footer>
 <!--footer end-->
 
 <!--back to top button start-->
-back to top
+<div class="back">
+ <a href="#" class="btn-top fa fa-angle-up"></a>
+</div>
 <!--back to top button end-->
-   
+   <script type="module" src="./js/pages/home.js" defer></script>
 </body>
 
 </html>
