@@ -3,11 +3,21 @@ body {
     background-color: #f6f8f5;
 }
 body > .container:first-child {
-    padding-top: 0;
+    padding: 0;
 }
 
 .container > .row:first-child {
     margin-top: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
 }
 
 .main-nav {
@@ -155,6 +165,7 @@ body > .container:first-child {
     transition-timing-function: linear;
 }
 
+
 .dropdown-content .green-link {
     color: #5dd9c1;
 }
@@ -162,3 +173,14 @@ body > .container:first-child {
     display: block;
 }
 /* header end */
+
+/* scroll start */
+.scroll-down header {
+    transform: translate3d(0, -100%, 0);
+
+}
+
+.scroll-up header {
+    filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+}
+/* scroll end */

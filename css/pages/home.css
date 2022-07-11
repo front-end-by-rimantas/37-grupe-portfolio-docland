@@ -24,6 +24,10 @@
 
 /* hero start */
 
+.hero-padding {
+    padding-top: 240px;
+}
+
 .hero-content {
     display: flex;
     flex-wrap: wrap;
