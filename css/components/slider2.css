@@ -14,10 +14,9 @@
     color: #5dd9c1;
     border: none;
     font-size: 30px;
-
     cursor: pointer;
     margin:10px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .slBtn:hover{
@@ -155,10 +154,11 @@
         width:70%;
         text-align: center;
     }
-.textBox{
-    float: left;
+    .textBox{
+        float: left;
+    }
+    .slBtn{
+        display: none;
+    }
     
-
-}
-
 }
