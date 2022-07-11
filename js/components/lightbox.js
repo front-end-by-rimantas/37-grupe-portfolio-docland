@@ -28,9 +28,6 @@ const showLightbox = () => {
 
 btnClose.addEventListener('click', () => {
     closeLightbox();
-});
-
-btnClose.addEventListener('click', () => {
     stopIFrames();
 });
 
@@ -40,6 +37,7 @@ play.addEventListener('click', () => {
 
 box.addEventListener('click', () => {
     closeLightbox();
+    stopIFrames();
 });
 addEventListener('keydown', ({code}) => {
     if (code === 'Escape') {
