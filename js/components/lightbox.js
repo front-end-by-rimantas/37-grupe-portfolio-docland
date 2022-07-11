@@ -6,7 +6,7 @@ const play = document.querySelector('#playBtn');
 
 const btnClose = document.querySelector('#closeBtn');
 
-const playStop = document.getElementById('playStop');
+const playStop = document.querySelector('#playStop');
 
 const stopIFrames = () => {
     let iFrameStop = playStop.getElementsByTagName('iframe');
@@ -27,7 +27,7 @@ const showLightbox = () => {
 };
 
 btnClose.addEventListener('click', () => {
-    closeLightbox();
+    closeLightbox(),
     stopIFrames();
 });
 
@@ -36,12 +36,14 @@ play.addEventListener('click', () => {
 });
 
 box.addEventListener('click', () => {
-    closeLightbox();
+    closeLightbox(),
     stopIFrames();
 });
-addEventListener('keydown', ({code}) => {
+
+btnClose.addEventListener('keydown', ({code}) => {
     if (code === 'Escape') {
         closeLightbox();
+        stopIFrames();
     }
 });
 
