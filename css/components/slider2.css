@@ -61,11 +61,10 @@
     cursor: pointer;
     padding-left: 10px;
     
-    
-    
 }
 .textBox{
-    font-size: 20px;
+    font-size: 18px;
+    color: gray;
     width: 210px;
     float: right;
     padding-left: 10px;
@@ -84,6 +83,10 @@
 .blue{
     background-color: #d7eff9;
     color: #45c7fd;
+
+}
+.slTitle{
+    float: left;
 
 }
 
