@@ -66,6 +66,19 @@ margin:auto;
     border-bottom-left-radius: 40px;
     border-top-left-radius: 40px;
 }
+
+.Email >input {
+    background-color: #5dd9c1;
+    border: none;
+    outline:none;
+    font-size: large;
+
+}
+
+::placeholder {
+    outline:none;
+    color: white;
+}
 .footerBtn{
     height: 70px;
     width: 35%;
