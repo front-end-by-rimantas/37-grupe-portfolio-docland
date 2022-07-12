@@ -1,16 +1,10 @@
 const syllabusData = [
     {
-        name: `Sarah Taylor`,
-        picture: `./img/people/atlepausis.png`,
-        occupation: `UX Consultant & Expertise`,
-        achievement1: `Top Instructor in Skillshare`,
-        achievement2: `30K+ Students`,
-        achievement3: `10 total courses`,
-        about: `The course has been really helpful.
-         I have been able to understand the fundamentals of UI Design.
-         The importance of wireframing, prototyping, colours and how to
-         study other site wireframing and to implement them into
-         my UI/UX Creative process.`,
+        week: `1`,
+        picture: `./img/Syllabus icons/Calendar.png`,
+        weekPlan: `Introduction To UX Design?`,
+        aboutPlan: `This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience"`,
+        
     },
     {
         name: `Ran Segall`,
