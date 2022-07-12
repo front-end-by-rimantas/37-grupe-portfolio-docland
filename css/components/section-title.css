@@ -2,4 +2,11 @@
     color: black;
     font-size: 40px;
     text-align: center;
+    font-family: hind;
+}
+.titleStudents{
+    color: black;
+    font-size: 40px;
+    font-family: hind;
+    float: left;
 }

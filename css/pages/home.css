@@ -625,17 +625,39 @@ box-shadow: 0 2px 16px #ccc;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-    
-    
+    padding: 140px 35px;
+}
+.Sendemail > h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: hind,sans-serif;
+    padding: 0px 35px;
+    width: 85%;
+    text-align:center;
+    line-height: 1.2;
 }
 .subscribe{
     color: white;
     font-size: 25px;
     font-family: sans-serif;
-    padding: 150px 15px;
     text-align: center;
     width: 85%;
-
+    position: relative;
+    overflow: hidden;
+    
+}
+.subscribe > a{
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    cursor: pointer;
+    color:white;
+    transition: 1s;
+}
+.subInput:hover{
+    color: #FBC006;
+    transition: 1s;
 }
 
 .subscribe > input{
@@ -644,15 +666,17 @@ box-shadow: 0 2px 16px #ccc;
     color: #fff;
     border: none;
     border-bottom: 1px solid #fff;
-    line-height: 20px;
+    line-height: 45px;
     font-size: 18px;
     margin-top: 30px;
+    outline:none;
+    
 }
-
 .subscribe ::placeholder{
     color: #fff;
     margin-top: 30px;
 }
+
 /* subscribe form end */
 
 /* course instructor start */
@@ -768,11 +792,6 @@ box-shadow: 0 2px 16px #ccc;
 /* back to top end */
 
 /* Student review start*/
-.titleStudents {
-    display: flex;
-   float: left;
-   font-size: 35px;
-}
 .students{
     display: flex;
     flex-direction: row;
@@ -790,7 +809,8 @@ box-shadow: 0 2px 16px #ccc;
     font-size: 20px;
     text-align: left;
     margin-top: 20px;
-    font-family: system-ui;
+    line-height: 2;
+    font-family: ubuntu, sans-serif;  
 }
 .Dorji{  
     background-color: white;
@@ -804,7 +824,8 @@ box-shadow: 0 2px 16px #ccc;
     font-size: 20px;
     margin-top: 20px;
     text-align: left;
-    font-family: system-ui;    
+    line-height: 2;
+    font-family: ubuntu, sans-serif;    
 }
 .nameAndStars{
     display: flex;
@@ -883,12 +904,18 @@ box-shadow: 0 2px 16px #ccc;
     }
     .Sendemail{  
         margin-top: 40px;
+        padding: 100px 0px 100px 0px;
+    }
+    .Sendemail h2{  
+        width: 100%;
     }
     .subscribe{
         font-size: 20px;
-        padding: 80px 0px 50px 0px;
-        
     }
+    .subscribe > input{
+        width:100%;
+}
+    
 }
 
 

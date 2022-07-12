@@ -12,3 +12,19 @@
     color: white;
     transition: 0.3s linear;
 }
+
+.Review-btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #5dd9c1;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    transition: 1s;
+}
+.Review-btn:hover {
+    
+    background-color: #fbc006;
+    transition: 1s;
+}
