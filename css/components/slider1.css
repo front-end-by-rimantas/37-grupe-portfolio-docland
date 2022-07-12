@@ -1,3 +1,7 @@
+.slider-container {
+    overflow: hidden;
+}
+
 .slider1 {
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 25px;
+    transition: transform 0.25s ease-in;
    
 }
 .sliderColumn1,.sliderColumn2,.sliderColumn3,.sliderColumn4{
