@@ -23,14 +23,14 @@ const moveToSlide = (cards, currentSlide, targetSlide) => {
 leftBtn.addEventListener('click', () => {
     const currentSlide = cards.querySelector('.current-slide');
     const nextSlide = currentSlide.nextElementSibling;
-
-    moveToSlide(cards, currentSlide, targetSlide);
+    moveToSlide(cards, currentSlide, nextSlide);
+    console.log(leftBtn, currentSlide);
 });
 
 rightBtn.addEventListener('click', () => {
     const currentSlide = cards.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
-
-    moveToSlide(cards, currentSlide, targetSlide);
+    moveToSlide(cards, currentSlide, prevSlide);
+    console.log(rightBtn);
 });
         
