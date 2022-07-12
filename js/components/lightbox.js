@@ -40,10 +40,9 @@ box.addEventListener('click', () => {
     stopIFrames();
 });
 
-btnClose.addEventListener('keydown', ({code}) => {
+addEventListener('keydown', ({code}) => {
     if (code === 'Escape') {
         closeLightbox();
-        stopIFrames();
     }
 });
 
