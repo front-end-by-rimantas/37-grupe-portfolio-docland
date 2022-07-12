@@ -35,7 +35,8 @@
 
 .slBox{
     background-color: white;
-    border-radius: 20px;   
+    border-radius: 20px;  
+    
  }
 
 .iconBox{
@@ -60,6 +61,7 @@
     padding-left: 5px;
     text-align: center;
     padding: 10px;
+    padding-bottom: 0;
 }
 .textBox{
     font-size: 18px;
@@ -67,7 +69,7 @@
     padding-left: 10px;
     text-align:center;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     
 }
 
@@ -96,10 +98,14 @@
     }    
 }
 
-@media (max-width: 900px){
+@media (max-width: 990px){
     .invisible3{
         display: none;
     }
+   .textBox{
+    padding-bottom: 15px;
+   }
+
     }
     
    
@@ -108,6 +114,9 @@
     .invisible2{
         display: none;
     }
+    .textBox{
+        padding-bottom: 25px;
+       }
 
 .slBtn{
     display: none;
