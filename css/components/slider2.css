@@ -1,9 +1,14 @@
 .slider2 {
-    height: 500px;
+
     width: 100%;
-    background-color: #f6f8f5
-    
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+} 
+
+
 
 .slBtn{
     float: right;
@@ -15,7 +20,7 @@
     font-size: 30px;
     cursor: pointer;
     margin:10px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .slBtn:hover{
@@ -26,53 +31,46 @@
 
 .slContainer{
     width: 100%;
-    height: 100%;
-    margin-top: 140px;
 }
 
 .slBox{
-    float: left;
-    width: 290px;
-    height: 150px;
     background-color: white;
-    border-radius: 20px;
-    margin-right: 10px;
-    margin-left: 15px;
-        
+    border-radius: 20px;  
+    
  }
 
 .iconBox{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     float: left;
-    width:80px;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     color: #1d00ff;
     background-color: #e9e6ff;
     font-size: 50px;
     text-align: center;
-    padding-top: 50px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+ 
     
 }
 .titleBox{
-    width:210px;
-    height: 50px;
-    float: right;
     font-size: 25px;
-    margin-top: 10px;
-    text-align: left;
     cursor: pointer;
-    padding-left: 10px;
-    
-    
-    
+    padding-left: 5px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
 }
 .textBox{
-    font-size: 20px;
-    width: 210px;
-    float: right;
+    font-size: 18px;
+    color: gray;
     padding-left: 10px;
-    text-align:left;
+    text-align:center;
+    width: 100%;
+    padding: 15px;
+    
 }
 
 .orange{
@@ -89,75 +87,41 @@
     color: #45c7fd;
 
 }
+.slTitle{
+    float: left;
 
-@media (max-width: 1400px){
-    .invisible4{
-        visibility: hidden;
-    }
-    .slBox{
-        width: 25%;
-        margin-left: 50px;
-    }
-    
-    .titleBox{
-        width:70%;
-        text-align: start;
-    }
-
-    .textBox{
-        width: 69%;
-        float: left;
-        padding-top: 15px;
-    
-    }
-    
 }
 
 @media (max-width: 1200px){
-    .invisible3{
-        visibility: hidden;
-    }
-    .slBox{
-        width: 40%;
-        margin-left: 50px;
-    }
-    
-    .titleBox{
-        width:69%;
-        text-align: center;
-        padding-top: 10px;
-    }
-
-    .textBox{
-        width: 69%;
-        float: left;
-        padding-top: 25px;
-    
-    }
-   
-    
+    .invisible4{
+        display: none;
+    }    
 }
 
-
-@media (max-width:700px){
-    .invisible2{
-        visibility: hidden;
-    }
-
-    .slBox{
-        width: 90%;
-        margin: auto;
-    }
-
-    .titleBox{
-        width:70%;
-        text-align: center;
-    }
-    .textBox{
-        float: left;
-    }
-    .slBtn{
+@media (max-width: 990px){
+    .invisible3{
         display: none;
     }
+   .textBox{
+    padding-bottom: 15px;
+   }
+
+    }
     
+   
+    
+@media (max-width:700px){
+    .invisible2{
+        display: none;
+    }
+    .textBox{
+        padding-bottom: 25px;
+       }
+
+.slBtn{
+    display: none;
+}
+.slBox{
+    margin-top: 50px;
+}
 }
