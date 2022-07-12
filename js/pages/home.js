@@ -18,6 +18,9 @@
 /* course syllabus download end */
 
 /* course syllabus content start */
+import { syllabusData } from "../../js/data/syllabus-data";
+import { syllabus } from "../../js/components/syllabus";
+syllabus(syllabusData)
 /* course syllabus content end */
 
 /* course benefit start */
