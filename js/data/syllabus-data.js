@@ -7,6 +7,17 @@ const syllabusData = [
         lectures: `3`,
         hours: `3`,
         videos: `3`,
+        about1: `Welcome and introduction: About Course`,
+        about2: `Introduction about UX Design`,
+        about3: `The Difference between UI and UX?`,
+        about4: `Talking about UX industry`,
+        about5: `How to apply UX on our daily project`,
+        about6: `What will I be making as a UX Designer?`,
+        courseLength:`03:29`,
+        courseStatus1:`Preview`,
+        courseStatus2:`<i class="fa fa-lock" aria-hidden="true"></i>`
+        ,
+
         
     },
     {
