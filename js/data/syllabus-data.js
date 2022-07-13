@@ -4,6 +4,9 @@ const syllabusData = [
         picture: `./img/Syllabus icons/Calendar.png`,
         weekPlan: `Introduction To UX Design?`,
         aboutPlan: `This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience"`,
+        lectures: `3`,
+        hours: `3`,
+        videos: `3`,
         
     },
     {
